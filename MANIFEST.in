@@ -1,3 +1,3 @@
-graft src/regpredictor/*
-recursive-include src/regpredictor *.gz
-recursive-include src/regpredictor *.h5
+graft src/regpredict/*
+recursive-include src/regpredict *.gz
+recursive-include src/regpredict *.h5

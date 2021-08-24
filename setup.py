@@ -4,11 +4,11 @@ except ImportError:
     from distutils.core import setup, find_packages
 
 setup(
-    name='regpredictor',
+    name='regpredict',
     packages=find_packages(),
     include_package_data=True,
     platforms='any',
-    version='0.0.1',
+    version='0.0.3',
     description='A package for predicting buy and sell signals',
     license='MIT',
     author='Nicolus Rotich',
@@ -16,7 +16,7 @@ setup(
     install_requires=[
     	"setuptools>=57",
     	"wheel",
-    	"h5py==2.10.0",
+    	"h5py==3.1.0",
         "fire"
     ],
     url='https://nkrtech.com',
