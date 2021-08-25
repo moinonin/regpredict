@@ -8,7 +8,7 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     platforms='any',
-    version='0.0.3',
+    version='0.0.4',
     description='A package for predicting buy and sell signals',
     license='MIT',
     author='Nicolus Rotich',
